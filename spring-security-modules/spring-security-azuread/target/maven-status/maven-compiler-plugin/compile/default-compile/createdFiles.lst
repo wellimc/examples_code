@@ -1,0 +1,8 @@
+com/baeldung/security/azuread/support/NamedOidcUser.class
+META-INF/spring-configuration-metadata.json
+com/baeldung/security/azuread/config/JwtAuthorizationConfiguration.class
+com/baeldung/security/azuread/config/JwtAuthorizationProperties.class
+com/baeldung/security/azuread/support/GroupsClaimMapper.class
+com/baeldung/security/azuread/controllers/SecureController.class
+com/baeldung/security/azuread/Application.class
+com/baeldung/security/azuread/controllers/IndexController.class

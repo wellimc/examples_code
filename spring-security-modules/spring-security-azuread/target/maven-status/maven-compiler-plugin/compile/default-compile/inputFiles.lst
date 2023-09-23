@@ -1,0 +1,8 @@
+/Users/wellington.cavalcanti/coursers/examples_code/tutorials/spring-security-modules/spring-security-azuread/src/main/java/com/baeldung/security/azuread/controllers/IndexController.java
+/Users/wellington.cavalcanti/coursers/examples_code/tutorials/spring-security-modules/spring-security-azuread/src/main/java/com/baeldung/security/azuread/config/JwtAuthorizationConfiguration.java
+/Users/wellington.cavalcanti/coursers/examples_code/tutorials/spring-security-modules/spring-security-azuread/src/main/java/com/baeldung/security/azuread/config/JwtAuthorizationProperties.java
+/Users/wellington.cavalcanti/coursers/examples_code/tutorials/spring-security-modules/spring-security-azuread/src/main/java/com/baeldung/security/azuread/controllers/SecureController.java
+/Users/wellington.cavalcanti/coursers/examples_code/tutorials/spring-security-modules/spring-security-azuread/src/main/java/com/baeldung/security/azuread/SecurityConfiguration.java
+/Users/wellington.cavalcanti/coursers/examples_code/tutorials/spring-security-modules/spring-security-azuread/src/main/java/com/baeldung/security/azuread/support/GroupsClaimMapper.java
+/Users/wellington.cavalcanti/coursers/examples_code/tutorials/spring-security-modules/spring-security-azuread/src/main/java/com/baeldung/security/azuread/support/NamedOidcUser.java
+/Users/wellington.cavalcanti/coursers/examples_code/tutorials/spring-security-modules/spring-security-azuread/src/main/java/com/baeldung/security/azuread/Application.java

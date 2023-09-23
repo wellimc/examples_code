@@ -1,0 +1,46 @@
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          azure:
+            issuer-uri: https://login.microsoftonline.com/1e622baf-8132-4204-9657-b37b16d16334/v2.0
+            user-name-attribute: name
+        registration:
+          solace-webapp-dev:
+            provider: azure
+            #client-id: "6035bfd4-22f0-437c-b76f-da729a916cbf"
+            #client-secret: "fo28Q~-aLbmQvonnZtzbgtSiqYstmBWEmGPAodmx"
+            client-id: 0d023fd4-05b7-40d9-bb40-15fd0936838d
+            client-secret: aVi8Q~pPj8OhjjMSPjzib3doDr47iTs5nX-PcaLa
+            scope:
+            - openid
+            - email
+            - profile
+                    
+# Group mapping
+solace:
+  jwt:
+    authorization:
+      group-to-authorities:
+        "51c47880-a6b2-4bd2-9c35-0e935c70f295" : SOLACE_CRM
+        "547b9ad1-31ce-4176-8ffd-13afe0132590" : SOLACE_TSFG
+        "d6a1141b-ad86-41e2-a6c8-c70ea6a44c1e" : SOLACE_CORP
+        "57fe44aa-5bf7-4021-a0ea-85e7aa55c710" : SOLACE_GUARANTORS
+        "656978b8-cea5-4483-98dd-ae5c741a2aa9" : SOLACE_ADMIN
+        "cba64276-85af-45e6-99bf-db1c4d280d92" : WELLIMC_GROUP
+
+
+  cloud:
+    azure:
+      active-directory:
+        enabled: true
+        tenant-id: 1e622baf-8132-4204-9657-b37b16d16334
+        credential:
+          client-id: 0d023fd4-05b7-40d9-bb40-15fd0936838d
+          client-secret: aVi8Q~pPj8OhjjMSPjzib3doDr47iTs5nX-PcaLa
+
+azure:
+  activedirectory:
+    tenant-id: 1e622baf-8132-4204-9657-b37b16d16334
+    active-directory-groups: SOLACE_CRM, SOLACE_TSFG,SOLACE_CORP,SOLACE_ADMIN

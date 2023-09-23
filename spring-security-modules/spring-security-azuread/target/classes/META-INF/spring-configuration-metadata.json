@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "solace.jwt.authorization",
+      "type": "com.baeldung.security.azuread.config.JwtAuthorizationProperties",
+      "sourceType": "com.baeldung.security.azuread.config.JwtAuthorizationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "solace.jwt.authorization.authorities-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.baeldung.security.azuread.config.JwtAuthorizationProperties",
+      "defaultValue": "ROLE_"
+    },
+    {
+      "name": "solace.jwt.authorization.group-to-authorities",
+      "type": "java.util.Map<java.lang.String,java.util.List<java.lang.String>>",
+      "sourceType": "com.baeldung.security.azuread.config.JwtAuthorizationProperties"
+    },
+    {
+      "name": "solace.jwt.authorization.groups-claim",
+      "type": "java.lang.String",
+      "sourceType": "com.baeldung.security.azuread.config.JwtAuthorizationProperties",
+      "defaultValue": "groups"
+    }
+  ],
+  "hints": []
+}

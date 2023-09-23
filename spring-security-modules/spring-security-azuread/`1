@@ -1,0 +1,9 @@
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home"
+export MVN_HOME=~/apache-maven-3.8.6
+export PATH=$MVN_HOME/bin:$PATH
+
+. "$HOME/.cargo/env"

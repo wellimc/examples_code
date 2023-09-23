@@ -1,0 +1,9 @@
+## XML
+
+This module contains articles about eXtensible Markup Language (XML)
+
+### Relevant Articles:
+
+- [Pretty-Print XML in Java](https://www.baeldung.com/java-pretty-print-xml)
+- [Validate an XML File Against an XSD File](https://www.baeldung.com/java-validate-xml-xsd)
+- [Converting JSON to XML in Java](https://www.baeldung.com/java-convert-json-to-xml)
